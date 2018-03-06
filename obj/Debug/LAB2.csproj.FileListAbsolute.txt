@@ -1,0 +1,13 @@
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\bin\Debug\LAB2.exe.config
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\bin\Debug\LAB2.exe
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\bin\Debug\LAB2.pdb
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\obj\Debug\LAB2.csprojResolveAssemblyReference.cache
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\obj\Debug\LAB2.exe
+C:\Users\Вова\Desktop\ПнАЯ\LAB2\obj\Debug\LAB2.pdb
+F:\LAB2\bin\Debug\LAB2.exe.config
+F:\LAB2\bin\Debug\LAB2.exe
+F:\LAB2\bin\Debug\LAB2.pdb
+F:\LAB2\obj\Debug\LAB2.csprojResolveAssemblyReference.cache
+F:\LAB2\obj\Debug\LAB2.csproj.CoreCompileInputs.cache
+F:\LAB2\obj\Debug\LAB2.exe
+F:\LAB2\obj\Debug\LAB2.pdb
