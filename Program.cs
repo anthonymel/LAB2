@@ -18,17 +18,13 @@ namespace LAB2
                         string original_message = Console.ReadLine();
                         Console.Write("Введите ключ: ");
                         int key = Convert.ToInt32(Console.ReadLine());
-                        if (key > 0 && key < Alphabet.Length)
-                            Console.WriteLine("Зашифрованное сообщение: " + encryption(original_message, Alphabet, key));
-                        else
-                            Console.WriteLine("Ошибка! Неверно задан ключ");
-
+                        Console.WriteLine("Зашифрованное сообщение: " + Encryption(original_message, Alphabet, key));
                         break;
                     case 2:
                         Console.Clear();
                         Console.Write("Зашифрованноe сообщение: ");
                         string encrypted_message = Console.ReadLine();
-                        decryption(encrypted_message, Alphabet);
+                        Decryption(encrypted_message, Alphabet);
                         break;
                     case 3: 
                         Environment.Exit(0);
@@ -43,7 +39,7 @@ namespace LAB2
             } while (true);
            
         }
-        static string encryption(string message, string alphabet, int key)
+        static string Encryption(string message, string alphabet, int key)
         {
             string result = "";
             int m = alphabet.Length;
@@ -65,9 +61,10 @@ namespace LAB2
                     result = result + message[i];
             }
             return result;
+       
         }
 
-        static void decryption(string message, string alphabet)
+        static void Decryption(string message, string alphabet)
         {
             string result;
             int m = alphabet.Length;
@@ -96,7 +93,7 @@ namespace LAB2
                 }
                 Console.WriteLine("ROT{0}  {1}", key, result);
                 key = key + 1;
-            } while (key <= alphabet.Length);
+            } while (key < alphabet.Length);
         }
 
         static int menu()
